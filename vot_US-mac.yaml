@@ -1,0 +1,128 @@
+### Generated from en-t-k0-osx.xml on 2019-01-23 at 13:03.
+
+internalName: en-t-k0-osx
+
+displayNames:
+  en: U.S.
+
+locale: en
+
+modes:
+  # default
+  iso-default: |
+    § 1 2 3 4 5 6 7 8 9 0 - =
+    q w e r t y u i o p [ ]
+    a s d f g h j k l ; ' \
+    ` z x c v b n m , . /
+  # shift+caps?
+  iso-shift: |
+    ± ! @ # $ % ^ & * ( ) _ +
+    Q W E R T Y U I O P { }
+    A S D F G H J K L : " |
+    ~ Z X C V B N M < > ?
+  # caps
+  iso-caps: |
+    § 1 2 3 4 5 6 7 8 9 0 - =
+    Q W E R T Y U I O P [ ]
+    A S D F G H J K L ; ' \
+    ` Z X C V B N M , . /
+  # opt
+  iso-alt: |
+    § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+    œ ∑ ´ ® † ¥ ¨ ˆ ø π “ ‘
+    å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+    ` Ω ≈ ç √ ∫ ˜ µ ≤ ≥ ÷
+  # opt+shift+cmd?+caps?
+  iso-alt+shift: |
+    ± ⁄ € ‹ › ﬁ ﬂ ‡ ° · ‚ — ±
+    Œ „ ´ ‰ ˇ Á ¨ ˆ Ø ∏ ” ’
+    Å Í Î Ï ˝ Ó Ô \u{F8FF} Ò Ú Æ »
+    ` ¸ ˛ Ç ◊ ı ˜ Â ¯ ˘ ¿
+  # opt+caps
+  iso-caps+alt: |
+    § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+    Œ ∑ ´ ® † Á ¨ ˆ Ø ∏ “ ‘
+    Å Í Î Ï © Ó Ô ˚ Ò … Æ «
+    ` Ω ≈ Ç √ ı ˜ Â ≤ ≥ ÷
+  # ctrlL+cmd?+opt?+caps? ctrlL+shift+cmd?+optL?+caps? ctrlL+opt+cmd?+caps?+shiftL?
+  iso-ctrl: |
+    0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+    ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+  # cmd+opt+caps?
+  osx-cmd+alt: |
+    § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+    œ ∑ ´ ® † ¥ ¨ ^ ø π “ ‘
+    å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+    ` Ω ≈ ç √ ∫ ~ µ ≤ ≥ ÷
+
+deadKeys:
+  iso-alt: ['`', '¨', '´', 'ˆ', '˜']
+
+transforms:
+  "`":
+    " ": "`"
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+  ´:
+    " ": ´
+    a: á
+    A: Á
+    e: é
+    E: É
+    i: í
+    I: Í
+    o: ó
+    O: Ó
+    u: ú
+    U: Ú
+  ˜:
+    " ": ˜
+    a: ã
+    A: Ã
+    n: ñ
+    N: Ñ
+    o: õ
+    O: Õ
+  ¨:
+    " ": ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    u: ü
+    U: Ü
+    y: ÿ
+    Y: Ÿ
+  ˆ:
+    " ": ˆ
+    a: â
+    A: Â
+    e: ê
+    E: Ê
+    i: î
+    I: Î
+    o: ô
+    O: Ô
+    u: û
+    U: Û
+
+special:
+  space:
+    iso-alt: \u{A0}
+    iso-alt+shift: \u{A0}
+    iso-caps+alt: \u{A0}
+    osx-cmd+alt: \u{A0}

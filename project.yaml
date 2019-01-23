@@ -16,8 +16,10 @@ organisation: UiT Norgga árktalaš universitehta
 
 layouts:
   - vot-mob
-  - vot-mac
-  - vot-win
+  - vot_RU-mac
+  - vot_RU-win
+  - vot_US-mac
+  - vot_US-win
 
 version: 1.0
 build: 1

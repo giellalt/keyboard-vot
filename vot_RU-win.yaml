@@ -1,11 +1,16 @@
 ### Generated from ru-t-k0-windows.xml on 2019-01-23 at 12:59.
-
-internalName: ru-t-k0-windows
+internalName: vot-ru-win
 
 displayNames:
-  ru: Russian
+  ru: Votic
 
-locale: ru
+locale: vot
+
+targets:
+  win:
+    locale: vot-Cyrl
+    languageName: "Мокшень кяль"
+    id: votru
 
 modes:
   # default

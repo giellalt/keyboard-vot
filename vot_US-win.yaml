@@ -1,11 +1,16 @@
 ### Generated from en-t-k0-windows.xml on 2019-01-23 at 13:02.
-
-internalName: en-t-k0-windows
+internalName: vot-us-win
 
 displayNames:
-  en: US
+  en: Votic
 
-locale: en
+locale: vot-Latn
+
+targets:
+  win:
+    locale: vot-Latn
+    languageName: "Votic (Latin)"
+    id: votus
 
 modes:
   # default

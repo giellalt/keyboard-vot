@@ -6,6 +6,8 @@ displayNames:
 
 locale: vot
 
+supportedTargets: [win, x11, svg]
+
 targets:
   win:
     locale: vot-Cyrl

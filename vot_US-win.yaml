@@ -6,6 +6,8 @@ displayNames:
 
 locale: vot-Latn
 
+supportedTargets: [win, x11, svg]
+
 targets:
   win:
     locale: vot-Latn

@@ -2,9 +2,9 @@
 internalName: vot-us-mac
 
 displayNames:
-  en: U.S.
+  en: Votic
 
-locale: en
+locale: vot
 
 modes:
   # default

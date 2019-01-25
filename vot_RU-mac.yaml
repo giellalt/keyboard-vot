@@ -2,9 +2,9 @@
 internalName: vot-ru-mac
 
 displayNames:
-  ru: Russian
+  ru: Votic
 
-locale: ru
+locale: vot
 
 modes:
   # default

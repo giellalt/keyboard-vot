@@ -1,0 +1,232 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "Russian";
+
+    key <AE00> { [ rightcaret,  leftcaret,    section,  plusminus ] };
+    key <AE01> { [          1,     exclam,     exclam,        bar ] };
+    key <AE02> { [          2,   quotedbl,         at,   quotedbl ] };
+    key <AE03> { [          3, numerosign, numbersign,   sterling ] };
+    key <AE04> { [          4,    percent,     dollar,   EuroSign ] };
+    key <AE05> { [          5,      colon,    percent,   infinity ] };
+    key <AE06> { [          6,      comma, asciicircum,    notsign ] };
+    key <AE07> { [          7, decimalpoint,  ampersand,  paragraph ] };
+    key <AE08> { [          8,  semicolon,   asterisk, squareroot ] };
+    key <AE09> { [          9,  parenleft,  parenleft, apostrophe ] };
+    key <AE10> { [          0, parenright, parenright,      grave ] };
+    key <AE11> { [      minus,   underbar,     endash,     emdash ] };
+    key <AE12> { [      equal,       plus, guillemotright, guillemotleft ] };
+    key <AD01> { [     otilde,     Otilde,          q,          Q ] };
+    key <AD02> { [ odiaeresis, Odiaeresis,          w,          W ] };
+    key <AD03> { [          e,          E,          e,          E ] };
+    key <AD04> { [          r,          R,     UF0000,     UF0001 ] };
+    key <AD05> { [          t,          T,     UF0002,     UF0003 ] };
+    key <AD06> { [ udiaeresis, Udiaeresis,          y,          Y ] };
+    key <AD07> { [          u,          U,          u,          U ] };
+    key <AD08> { [          i,          I,          i,          I ] };
+    key <AD09> { [          o,          O,          o,          O ] };
+    key <AD10> { [          p,          P,     UF0004,     UF0005 ] };
+    key <AD11> { [ adiaeresis, Adiaeresis, adiaeresis, Adiaeresis ] };
+    key <AD12> { [     scaron,     Scaron,     scaron,     Scaron ] };
+    key <AC01> { [          a,          A,          a,          A ] };
+    key <AC02> { [          s,          S,     UF0006,     UF0007 ] };
+    key <AC03> { [          d,          D,     UF0008,     UF0009 ] };
+    key <AC04> { [          f,          F,     UF000A,     UF000B ] };
+    key <AC05> { [          g,          G,          g,          G ] };
+    key <AC06> { [          h,          H,     UF000C,     UF000D ] };
+    key <AC07> { [          j,          J,          j,          J ] };
+    key <AC08> { [          k,          K,          k,          K ] };
+    key <AC09> { [          l,          L,     UF000E,     UF000F ] };
+    key <AC10> { [  semicolon,  semicolon,  semicolon,  semicolon ] };
+    key <AC11> { [      U0315,      U0315, apostrophe, apostrophe ] };
+    key <AD13> { [  backslash,      slash,  backslash,      slash ] };
+    key <AB00> { [ bracketright, bracketleft, bracketright, bracketleft ] };
+    key <AB01> { [          z,          Z,     UF0010,     UF0011 ] };
+    key <AB02> { [     zcaron,     Zcaron,          q,          Q ] };
+    key <AB03> { [     ccaron,     Ccaron,          c,          C ] };
+    key <AB04> { [          v,          V,     UF0012,     UF0013 ] };
+    key <AB05> { [          b,          B,          b,          B ] };
+    key <AB06> { [          n,          N,     UF0014,     UF0015 ] };
+    key <AB07> { [          m,          M,          m,          M ] };
+    key <AB08> { [ adiaeresis, Adiaeresis, adiaeresis, Adiaeresis ] };
+    key <AB09> { [     scaron,     Scaron,     UF0016,     UF0017 ] };
+    key <AB10> { [      slash,   question, leftdoublequotemark, doublelowquotemark ] };
+
+    include "level3(ralt_switch)"
+};
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "Russian";
+
+    key <AE00> { [          w,          W,          w,          W ] };
+    key <AE01> { [          1,     exclam,          1,     exclam ] };
+    key <AE02> { [          2,   quotedbl,          2,   quotedbl ] };
+    key <AE03> { [          3, numerosign,          3, numerosign ] };
+    key <AE04> { [          4,  semicolon,          4,  semicolon ] };
+    key <AE05> { [          5,    percent,          5,    percent ] };
+    key <AE06> { [          6,      colon,          6,      colon ] };
+    key <AE07> { [          7,   question,          7,   question ] };
+    key <AE08> { [          8,   asterisk,          8,   asterisk ] };
+    key <AE09> { [          9,  parenleft,          9,  parenleft ] };
+    key <AE10> { [          0, parenright,          0, parenright ] };
+    key <AE11> { [      minus,   underbar,      minus,   underbar ] };
+    key <AE12> { [      equal,       plus,      equal,       plus ] };
+    key <AD01> { [     otilde,     Otilde,          q,          Q ] };
+    key <AD02> { [ odiaeresis, Odiaeresis,          w,          W ] };
+    key <AD03> { [          e,          E,          e,          E ] };
+    key <AD04> { [          r,          R,     UF0018,     UF0019 ] };
+    key <AD05> { [          t,          T,     UF001A,     UF001B ] };
+    key <AD06> { [ udiaeresis, Udiaeresis,          y,          Y ] };
+    key <AD07> { [          u,          U,          u,          U ] };
+    key <AD08> { [          i,          I,          i,          I ] };
+    key <AD09> { [          o,          O,          o,          O ] };
+    key <AD10> { [          p,          P,     UF001C,     UF001D ] };
+    key <AD11> { [ adiaeresis, Adiaeresis, adiaeresis, Adiaeresis ] };
+    key <AD12> { [     scaron,     Scaron,     scaron,     Scaron ] };
+    key <AC01> { [          a,          A,          a,          A ] };
+    key <AC02> { [          s,          S,     UF001E,     UF001F ] };
+    key <AC03> { [          d,          D,     UF0020,     UF0021 ] };
+    key <AC04> { [          f,          F,     UF0022,     UF0023 ] };
+    key <AC05> { [          g,          G,          g,          G ] };
+    key <AC06> { [          h,          H,     UF0024,     UF0025 ] };
+    key <AC07> { [          j,          J,          j,          J ] };
+    key <AC08> { [          k,          K,          k,          K ] };
+    key <AC09> { [          l,          L,     UF0026,     UF0027 ] };
+    key <AC10> { [  semicolon,  semicolon,  semicolon,  semicolon ] };
+    key <AC11> { [      U0315,      U0315, apostrophe, apostrophe ] };
+    key <AD13> { [  backslash,      slash,  backslash,      slash ] };
+    key <AB00> { [  backslash,      slash,  backslash,      slash ] };
+    key <AB01> { [          z,          Z,     UF0028,     UF0029 ] };
+    key <AB02> { [     zcaron,     Zcaron,          q,          Q ] };
+    key <AB03> { [     ccaron,     Ccaron,          c,          C ] };
+    key <AB04> { [          v,          V,     UF002A,     UF002B ] };
+    key <AB05> { [          b,          B,          b,          B ] };
+    key <AB06> { [          n,          N,     UF002C,     UF002D ] };
+    key <AB07> { [          m,          M,          m,          M ] };
+    key <AB08> { [ adiaeresis, Adiaeresis, adiaeresis, Adiaeresis ] };
+    key <AB09> { [     scaron,     Scaron,     UF002E,     UF002F ] };
+    key <AB10> { [ decimalpoint,      comma, decimalpoint,      comma ] };
+
+    include "level3(ralt_switch)"
+};
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "U.S.";
+
+    key <AE00> { [    section,  plusminus,    section,  plusminus ] };
+    key <AE01> { [          1,     exclam, exclamdown,      U2044 ] };
+    key <AE02> { [          2,         at,  trademark,   EuroSign ] };
+    key <AE03> { [          3, numbersign,   sterling,      U2039 ] };
+    key <AE04> { [          4,     dollar,       cent,      U203A ] };
+    key <AE05> { [          5,    percent,   infinity,      UFB01 ] };
+    key <AE06> { [          6, asciicircum,    section,      UFB02 ] };
+    key <AE07> { [          7,  ampersand,  paragraph, doubledagger ] };
+    key <AE08> { [          8,   asterisk, enfilledcircbullet,     degree ] };
+    key <AE09> { [          9,  parenleft, ordfeminine, periodcentered ] };
+    key <AE10> { [          0, parenright,  masculine, singlelowquotemark ] };
+    key <AE11> { [      minus,   underbar,     endash,     emdash ] };
+    key <AE12> { [      equal,       plus,   notequal,  plusminus ] };
+    key <AD01> { [          q,          Q,         oe,         OE ] };
+    key <AD02> { [          w,          W,      U2211, doublelowquotemark ] };
+    key <AD03> { [          e,          E,      acute,      acute ] };
+    key <AD04> { [          r,          R, registered,   permille ] };
+    key <AD05> { [          t,          T,     dagger,      caron ] };
+    key <AD06> { [          y,          Y,        yen,     Aacute ] };
+    key <AD07> { [          u,          U,  diaeresis,  diaeresis ] };
+    key <AD08> { [          i,          I,      U02C6,      U02C6 ] };
+    key <AD09> { [          o,          O,   ooblique,   Ooblique ] };
+    key <AD10> { [          p,          P,   Greek_pi,      U220F ] };
+    key <AD11> { [ bracketleft,  braceleft, leftdoublequotemark, rightdoublequotemark ] };
+    key <AD12> { [ bracketright, braceright, leftsinglequotemark, rightsinglequotemark ] };
+    key <AC01> { [          a,          A,      aring,      Aring ] };
+    key <AC02> { [          s,          S,     ssharp,     Iacute ] };
+    key <AC03> { [          d,          D, partdifferential, Icircumflex ] };
+    key <AC04> { [          f,          F,   function, Idiaeresis ] };
+    key <AC05> { [          g,          G,  copyright, doubleacute ] };
+    key <AC06> { [          h,          H,   abovedot,     Oacute ] };
+    key <AC07> { [          j,          J,      U2206, Ocircumflex ] };
+    key <AC08> { [          k,          K,      U02DA,      UF8FF ] };
+    key <AC09> { [          l,          L,    notsign,     Ograve ] };
+    key <AC10> { [  semicolon,      colon,   ellipsis,     Uacute ] };
+    key <AC11> { [ apostrophe,   quotedbl,         ae,         AE ] };
+    key <AD13> { [  backslash,        bar, guillemotleft, guillemotright ] };
+    key <AB00> { [      grave, asciitilde,      grave,      grave ] };
+    key <AB01> { [          z,          Z, Greek_OMEGA,    cedilla ] };
+    key <AB02> { [          x,          X,      U2248,     ogonek ] };
+    key <AB03> { [          c,          C,   ccedilla,   Ccedilla ] };
+    key <AB04> { [          v,          V, squareroot,      U25CA ] };
+    key <AB05> { [          b,          B,   integral,   idotless ] };
+    key <AB06> { [          n,          N,      U02DC,      U02DC ] };
+    key <AB07> { [          m,          M,         mu, Acircumflex ] };
+    key <AB08> { [      comma,  leftcaret, lessthanequal,    overbar ] };
+    key <AB09> { [ decimalpoint, rightcaret, greaterthanequal,      breve ] };
+    key <AB10> { [      slash,   question,   division, questiondown ] };
+
+    include "level3(ralt_switch)"
+};
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "US";
+
+    key <AE00> { [      grave, asciitilde ] };
+    key <AE01> { [          1,     exclam ] };
+    key <AE02> { [          2,         at ] };
+    key <AE03> { [          3, numbersign ] };
+    key <AE04> { [          4,     dollar ] };
+    key <AE05> { [          5,    percent ] };
+    key <AE06> { [          6, asciicircum ] };
+    key <AE07> { [          7,  ampersand ] };
+    key <AE08> { [          8,   asterisk ] };
+    key <AE09> { [          9,  parenleft ] };
+    key <AE10> { [          0, parenright ] };
+    key <AE11> { [      minus,   underbar ] };
+    key <AE12> { [      equal,       plus ] };
+    key <AD01> { [     otilde,     Otilde ] };
+    key <AD02> { [ odiaeresis, Odiaeresis ] };
+    key <AD03> { [          e,          E ] };
+    key <AD04> { [          r,          R ] };
+    key <AD05> { [          t,          T ] };
+    key <AD06> { [ udiaeresis, Udiaeresis ] };
+    key <AD07> { [          u,          U ] };
+    key <AD08> { [          i,          I ] };
+    key <AD09> { [          o,          O ] };
+    key <AD10> { [          p,          P ] };
+    key <AD11> { [ adiaeresis, Adiaeresis ] };
+    key <AD12> { [     scaron,     Scaron ] };
+    key <AC01> { [          a,          A ] };
+    key <AC02> { [          s,          S ] };
+    key <AC03> { [          d,          D ] };
+    key <AC04> { [          f,          F ] };
+    key <AC05> { [          g,          G ] };
+    key <AC06> { [          h,          H ] };
+    key <AC07> { [          j,          J ] };
+    key <AC08> { [          k,          K ] };
+    key <AC09> { [          l,          L ] };
+    key <AC10> { [  semicolon,      colon ] };
+    key <AC11> { [ apostrophe,   quotedbl ] };
+    key <AD13> { [  backslash,        bar ] };
+    key <AB00> { [  backslash,        bar ] };
+    key <AB01> { [          z,          Z ] };
+    key <AB02> { [     zcaron,     Zcaron ] };
+    key <AB03> { [     ccaron,     Ccaron ] };
+    key <AB04> { [          v,          V ] };
+    key <AB05> { [          b,          B ] };
+    key <AB06> { [          n,          N ] };
+    key <AB07> { [          m,          M ] };
+    key <AB08> { [      comma,  leftcaret ] };
+    key <AB09> { [ decimalpoint, rightcaret ] };
+    key <AB10> { [      slash,   question ] };
+
+    include "level3(ralt_switch)"
+};
+

@@ -1,7 +1,7 @@
 internalName: vot-mob
 
 displayNames:
-  vot: Votic
+  vot: Vad̕d̕a
   en: Votic
 
 locale: vot
@@ -11,24 +11,56 @@ supportedTargets: [ios, android]
 modes:
 # mobile layouts:
   mobile-default: |
-    á š e r t y u i o p ŋ
-    a s d f g h j k l đ ŧ
-    ž z č c v b n m w
+    õ ö e r t ü u i o p
+    a s d f g h j k l w
+    z ž č v b n m ä š
   mobile-shift: |
-    Á Š E R T Y U I O P Ŋ
-    A S D F G H J K L Đ Ŧ
-    Ž Z Č C V B N M W
+    Õ Ö E R T Ü U I O P
+    A S D F G H J K L W
+    Z Ž Č V B N M Ä Š
+
 
 # mobile keyboards properties:
 longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
+  Õ: Q
+  Ö: W
+  Ü: Y
+  A: Ä
+  Ž: X Z
+  Č: C
+  O: Ö Õ
+  P: P̕
+  F: F̕
+  V: V̕
+  T: T̕
+  D: D̕
+  N: N̕
+  S: S̕ Š
+  Z: Z̕ Ž
+  L: L̕
+  R: R̕
+  Š: Š̕ S
+  H: H̕
+  õ: q
+  ö: w
+  ü: y
+  a: ä
+  ž: x z
+  č: c
+  o: ö õ
+  p: p̕
+  f: f̕
+  v: v̕
+  t: t̕
+  d: d̕
+  n: n̕
+  s: s̕ š
+  z: z̕ ž
+  l: l̕
+  r: r̕
+  š: š̕ s
+  h: h̕
+
 
 styles:
   tablet:

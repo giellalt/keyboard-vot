@@ -4,8 +4,9 @@ internalName: vot-us-win
 displayNames:
   en: Votic
   vot: Vad̕d̕a
+  vot-Latn: Vad̕d̕a
 
-locale: vot-Latn
+locale: vot
 
 supportedTargets: [win, x11, svg]
 

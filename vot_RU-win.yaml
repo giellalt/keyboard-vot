@@ -13,7 +13,7 @@ supportedTargets: [win, x11, svg]
 targets:
   win:
     locale: vot-Cyrl
-    languageName: "Мокшень кяль"
+    languageName: "Водский язык"
     id: votru
 
 modes:

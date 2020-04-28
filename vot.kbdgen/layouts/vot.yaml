@@ -1,0 +1,215 @@
+displayNames:
+  vot: Vad̕d̕a
+  en: Votic
+modes:
+  mobile:
+    default: |
+      õ ö e r t ü u i o p
+      a s d f g h j k l w
+      z ž č v b n m ä š
+    shift: |
+      Õ Ö E R T Ü U I O P
+      A S D F G H J K L W
+      Z Ž Č V B N M Ä Š
+  mac:
+    default: |
+      § 1 2 3 4 5 6 7 8 9 0 - =
+      q w e r t y u i o p [ ]
+      a s d f g h j k l ; ' \
+      ` z x c v b n m , . /
+    shift: |
+      ± ! @ # $ % ^ & * ( ) _ +
+      Q W E R T Y U I O P { }
+      A S D F G H J K L : " |
+      ~ Z X C V B N M < > ?
+    caps: |
+      § 1 2 3 4 5 6 7 8 9 0 - =
+      Q W E R T Y U I O P [ ]
+      A S D F G H J K L ; ' \
+      ` Z X C V B N M , . /
+    cmd+alt: |
+      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+      œ ∑ ´ ® † ¥ ¨ ^ ø π “ ‘
+      å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+      ` Ω ≈ ç √ ∫ ~ µ ≤ ≥ ÷
+    alt: |
+      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+      œ ∑ ´ ® † ¥ ¨ ˆ ø π “ ‘
+      å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+      ` Ω ≈ ç √ ∫ ˜ µ ≤ ≥ ÷
+    alt+shift: |
+      ± ⁄ € ‹ › ﬁ ﬂ ‡ ° · ‚ — ±
+      Œ „ ´ ‰ ˇ Á ¨ ˆ Ø ∏ ” ’
+      Å Í Î Ï ˝ Ó Ô \u{F8FF} Ò Ú Æ »
+      ` ¸ ˛ Ç ◊ ı ˜ Â ¯ ˘ ¿
+    ctrl: |
+      0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+      ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+    cmd+shift: |
+      ± ! @ # $ % ^ & * ( ) _ +
+      й Ц У К Е Н Г Ш Щ З Х Ъ
+      Ф Ы В А П Р О Л Д Ж Э Ё
+      ~ Я Ч С М И Т Ь Б Ю ?
+    caps+alt: |
+      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+      Œ ∑ ´ ® † Á ¨ ˆ Ø ∏ “ ‘
+      Å Í Î Ï © Ó Ô ˚ Ò … Æ «
+      ` Ω ≈ Ç √ ı ˜ Â ≤ ≥ ÷
+  win:
+    default: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+      õ ö e r t ü u i o p ä š
+      a s d f g h j k l ; ' \
+      \ z ž č v b n m , . /
+    shift: |
+      ~ ! @ # $ % ^ & * ( ) _ +
+      Õ Ö E R T Ü U I O P Ä Š
+      A S D F G H J K L : " |
+      | Z Ž Č V B N M < > ?
+    caps: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+      Õ Ö E R T Ü U I O P Ä Š
+      A S D F G H J K L ; ' \
+      \ Z Ž Č V B N M , . /
+    caps+shift: |
+      ~ ! @ # $ % ^ & * ( ) _ +
+      õ ö e r t ü u i o p ä š
+      a s d f g h j k l : " |
+      | z ž č v b n m < > ?
+    ctrl: |
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
+      \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    alt: |
+      w 1 2 3 4 5 6 7 8 9 0 - =
+      q w e r̕ t̕ y u i o p̕ ä š
+      a s̕ d̕ f̕ g h̕ j k l̕ ; ' \
+      \ z̕ q c v̕ b n̕ m ä š̕ .
+    alt+shift: |
+      W ! " № ; % : ? * ( ) _ +
+      Q W E R̕ T̕ Y U I O P̕ Ä Š
+      A S̕ D̕ F̕ G H̕ J K L̕ ; ' /
+      / Z̕ Q C V̕ B N̕ M Ä Š̕ ,
+transforms:
+  '`':
+    ' ': '`'
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+  ´:
+    ' ': ´
+    a: á
+    A: Á
+    e: é
+    E: É
+    i: í
+    I: Í
+    o: ó
+    O: Ó
+    u: ú
+    U: Ú
+  ˜:
+    ' ': ˜
+    a: ã
+    A: Ã
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+  ¨:
+    ' ': ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    u: ü
+    U: Ü
+    'y': ÿ
+    'Y': Ÿ
+  ˆ:
+    ' ': ˆ
+    a: â
+    A: Â
+    e: ê
+    E: Ê
+    i: î
+    I: Î
+    o: ô
+    O: Ô
+    u: û
+    U: Û
+longpress:
+  Õ: Q
+  Ö: W
+  Ü: 'Y'
+  A: Ä
+  Ž: X Z
+  Č: C
+  O: Ö Õ
+  P: P̕
+  F: F̕
+  V: V̕
+  T: T̕
+  D: D̕
+  'N': N̕
+  S: S̕ Š
+  Z: Z̕ Ž
+  L: L̕
+  R: R̕
+  Š: Š̕ S
+  H: H̕
+  õ: q
+  ö: w
+  ü: 'y'
+  a: ä
+  ž: x z
+  č: c
+  o: ö õ
+  p: p̕
+  f: f̕
+  v: v̕
+  t: t̕
+  d: d̕
+  'n': n̕
+  s: s̕ š
+  z: z̕ ž
+  l: l̕
+  r: r̕
+  š: š̕ s
+  h: h̕
+strings:
+  space: gaska
+  return: linnjámolsun
+space:
+  mac:
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+deadKeys:
+  mac:
+    alt: ['`', ¨, ´, ˆ, ˜]
+targets:
+  ios:
+    legacyName: vot-mob
+  android:
+    legacyName: vot-mob
+  win:
+    locale: vot-Latn
+    languageName: Votic (Latin)
+    id: votus
+    legacyName: vot-us-win

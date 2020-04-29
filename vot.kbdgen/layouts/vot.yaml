@@ -1,0 +1,60 @@
+displayNames:
+  vot: Vad̕d̕a
+  en: Votic
+modes:
+  mobile:
+    default: |
+      õ ö e r t ü u i o p
+      a s d f g h j k l w
+      z ž č v b n m ä š
+    shift: |
+      Õ Ö E R T Ü U I O P
+      A S D F G H J K L W
+      Z Ž Č V B N M Ä Š
+longpress:
+  Õ: Q
+  Ö: W
+  Ü: 'Y'
+  A: Ä
+  Ž: X Z
+  Č: C
+  O: Ö Õ
+  P: P̕
+  F: F̕
+  V: V̕
+  T: T̕
+  D: D̕
+  'N': N̕
+  S: S̕ Š
+  Z: Z̕ Ž
+  L: L̕
+  R: R̕
+  Š: Š̕ S
+  H: H̕
+  õ: q
+  ö: w
+  ü: 'y'
+  a: ä
+  ž: x z
+  č: c
+  o: ö õ
+  p: p̕
+  f: f̕
+  v: v̕
+  t: t̕
+  d: d̕
+  'n': n̕
+  s: s̕ š
+  z: z̕ ž
+  l: l̕
+  r: r̕
+  š: š̕ s
+  h: h̕
+strings:
+  space: gaska
+  return: linnjámolsun
+targets:
+  ios:
+    legacyName: vot-mob
+  android:
+    legacyName: vot-mob

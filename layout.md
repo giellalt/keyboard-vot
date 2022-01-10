@@ -8,18 +8,18 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Votic (Russia, macOS)
+# Votic (Russia, macOS)
 
   
 
-## Votic (Russia, Windows)
+# Votic (Russia, Windows)
 
   
 
-## Votic (US, macOS)
+# Votic (US, macOS)
 
   
 
-## Votic (US, Windows
+# Votic (US, Windows
 
   

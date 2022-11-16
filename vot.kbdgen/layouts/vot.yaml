@@ -1,16 +1,6 @@
 displayNames:
   vot: Vad̕d̕a
   en: Votic
-modes:
-  mobile:
-    default: |
-      õ ö e r t ü u i o p
-      a s d f g h j k l w
-      z ž č v b n m ä š
-    shift: |
-      Õ Ö E R T Ü U I O P
-      A S D F G H J K L W
-      Z Ž Č V B N M Ä Š
 longpress:
   Õ: Q
   Ö: W
@@ -50,11 +40,7 @@ longpress:
   r: r̕
   š: š̕ s
   h: h̕
-strings:
+keyNames:
   space: gaska
   return: linnjámolsun
-targets:
-  ios:
-    legacyName: vot-mob
-  android:
-    legacyName: vot-mob
+

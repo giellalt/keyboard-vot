@@ -1,74 +1,89 @@
 displayNames:
   en: Votic
   vot: Vad̕d̕a
-modes:
-  mac:
-    default: |
-      § 1 2 3 4 5 6 7 8 9 0 - =
-      q w e r t y u i o p [ ]
-      a s d f g h j k l ; ' \
-      ` z x c v b n m , . /
-    shift: |
-      ± ! @ # $ % ^ & * ( ) _ +
-      Q W E R T Y U I O P { }
-      A S D F G H J K L : " |
-      ~ Z X C V B N M < > ?
-    caps: |
-      § 1 2 3 4 5 6 7 8 9 0 - =
-      Q W E R T Y U I O P [ ]
-      A S D F G H J K L ; ' \
-      ` Z X C V B N M , . /
-    alt: |
-      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
-      œ ∑ ´ ® † ¥ ¨ ˆ ø π “ ‘
-      å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
-      ` Ω ≈ ç √ ∫ ˜ µ ≤ ≥ ÷
-    alt+shift: |
-      ± ⁄ € ‹ › ﬁ ﬂ ‡ ° · ‚ — ±
-      Œ „ ´ ‰ ˇ Á ¨ ˆ Ø ∏ ” ’
-      Å Í Î Ï ˝ Ó Ô \u{F8FF} Ò Ú Æ »
-      ` ¸ ˛ Ç ◊ ı ˜ Â ¯ ˘ ¿
-    caps+alt: |
-      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
-      Œ ∑ ´ ® † Á ¨ ˆ Ø ∏ “ ‘
-      Å Í Î Ï © Ó Ô ˚ Ò … Æ «
-      ` Ω ≈ Ç √ ı ˜ Â ≤ ≥ ÷
-    ctrl: |
-      0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-      ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-    cmd+alt: |
-      § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
-      œ ∑ ´ ® † ¥ ¨ ^ ø π “ ‘
-      å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
-      ` Ω ≈ ç √ ∫ ~ µ ≤ ≥ ÷
-  win:
-    default: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-      õ ö e r t ü u i o p ä š
-      a s d f g h j k l ; ' \
-      \ z ž č v b n m , . /
-    shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-      Õ Ö E R T Ü U I O P Ä Š
-      A S D F G H J K L : " |
-      | Z Ž Č V B N M < > ?
-    caps: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-      Õ Ö E R T Ü U I O P Ä Š
-      A S D F G H J K L ; ' \
-      \ Z Ž Č V B N M , . /
-    caps+shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-      õ ö e r t ü u i o p ä š
-      a s d f g h j k l : " |
-      | z ž č v b n m < > ?
-    ctrl: |
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
-      \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+macOS:
+  primary:
+    layers:
+      default: |
+        § 1 2 3 4 5 6 7 8 9 0 - =
+        q w e r t y u i o p [ ]
+        a s d f g h j k l ; ' \
+        ` z x c v b n m , . /
+      shift: |
+        ± ! @ # $ % ^ & * ( ) _ +
+        Q W E R T Y U I O P { }
+        A S D F G H J K L : " |
+        ~ Z X C V B N M < > ?
+      caps: |
+        § 1 2 3 4 5 6 7 8 9 0 - =
+        Q W E R T Y U I O P [ ]
+        A S D F G H J K L ; ' \
+        ` Z X C V B N M , . /
+      alt: |
+        § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+        œ ∑ ´ ® † ¥ ¨ ˆ ø π “ ‘
+        å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+        ` Ω ≈ ç √ ∫ ˜ µ ≤ ≥ ÷
+      alt+shift: |
+        ± ⁄ € ‹ › ﬁ ﬂ ‡ ° · ‚ — ±
+        Œ „ ´ ‰ ˇ Á ¨ ˆ Ø ∏ ” ’
+        Å Í Î Ï ˝ Ó Ô \u{F8FF} Ò Ú Æ »
+        ` ¸ ˛ Ç ◊ ı ˜ Â ¯ ˘ ¿
+      ctrl: |
+        0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+        \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+        \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+        ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+      cmd+alt: |
+        § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+        œ ∑ ´ ® † ¥ ¨ ^ ø π “ ‘
+        å ß ∂ ƒ © ˙ ∆ ˚ ¬ … æ «
+        ` Ω ≈ ç √ ∫ ~ µ ≤ ≥ ÷
+      alt+caps: |
+        § ¡ ™ £ ¢ ∞ § ¶ • ª º – ≠
+        Œ ∑ ´ ® † Á ¨ ˆ Ø ∏ “ ‘
+        Å Í Î Ï © Ó Ô ˚ Ò … Æ «
+        ` Ω ≈ Ç √ ı ˜ Â ≤ ≥ ÷
+  space:
+    alt: \u{A0}
+    alt+shift: \u{A0}
+    cmd+alt: \u{A0}
+    alt+caps: \u{A0}
+  deadKeys:
+    alt: ['`', '¨', '´', 'ˆ', '˜']
+windows:
+  config:
+    locale: vot-Latn
+    languageName: Votic (Latin)
+    id: votus
+    legacyName: vot-us-win
+  primary:
+    layers:
+      default: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+        õ ö e r t ü u i o p ä š
+        a s d f g h j k l ; ' \
+        \ z ž č v b n m , . /
+      shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+        Õ Ö E R T Ü U I O P Ä Š
+        A S D F G H J K L : " |
+        | Z Ž Č V B N M < > ?
+      caps: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+        Õ Ö E R T Ü U I O P Ä Š
+        A S D F G H J K L ; ' \
+        \ Z Ž Č V B N M , . /
+      caps+shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+        õ ö e r t ü u i o p ä š
+        a s d f g h j k l : " |
+        | z ž č v b n m < > ?
+      ctrl: |
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
+        \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 transforms:
   '`':
     ' ': '`'
@@ -128,18 +143,4 @@ transforms:
     O: Ô
     u: û
     U: Û
-space:
-  mac:
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-deadKeys:
-  mac:
-    alt: ['`', ¨, ´, ˆ, ˜]
-targets:
-  win:
-    locale: vot-Latn
-    languageName: Votic (Latin)
-    id: votus
-    legacyName: vot-us-win
+

@@ -1,6 +1,7 @@
 displayNames:
   ru: Votic
   vot: Водский
+  vot-ru: Водский (Россия)
 macOS:
   primary:
     layers:
